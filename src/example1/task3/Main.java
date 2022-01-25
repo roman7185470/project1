@@ -6,10 +6,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int number = 1;
-        int x = number;
-        int y = scanner.nextInt();
-        System.out.println();
+        System.out.println("введите число = ?");
+        int x = scanner.nextInt();
+        System.out.println(x - x%2 + 2);
 
     }
 
